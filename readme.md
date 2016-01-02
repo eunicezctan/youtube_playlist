@@ -16,6 +16,11 @@ Go to line 50 in playlist_list.py script to enter your desired YouTube channel u
 ## Output Folder
 
 Go to line 88 in playlist_list.py script to enter your desired output folder
+
+## File delimiter
+
+Go to line 103 in playlist_list.py script to change your desired delimiter
+e.g  sFile.write(str(title) +'*'+ str(video_id)+ '*' +str(thumbnails)+ '*' +str(description)+'NewVideo')
  
 ## Other
 
