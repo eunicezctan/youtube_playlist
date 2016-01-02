@@ -100,7 +100,7 @@ for channel in channels_response["items"]:
       #print "%s (%s)" % (thumbnails,description)
       i=i+1
       print i
-      sFile.write(str(title) +'**'+ str(video_id)+ '**' +str(thumbnails)+ '**' +str(description)+'*NewVideo*')
+      sFile.write(str(title) +'*'+ str(video_id)+'NewVideo')
 
     playlistitems_list_request = youtube.playlistItems().list_next(
       playlistitems_list_request, playlistitems_list_response)
